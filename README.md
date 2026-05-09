@@ -15,11 +15,6 @@ To install and configure this MCP server, add the following configuration to you
         "mcp-server"
       ]
     }
-  },
-  "preferences": {
-    "coworkWebSearchEnabled": true,
-    "coworkScheduledTasksEnabled": false,
-    "ccdScheduledTasksEnabled": false
   }
 }
 ```
@@ -33,8 +28,3 @@ To install and configure this MCP server, add the following configuration to you
       - `--from`: Specifies the source as a git repository
       - Repository URL: `git+https://github.com/MuhWaqas/mcpserverexample.git`
       - Entry point: `mcp-server`
-
-- **preferences**: Configure MCP preferences
-  - **coworkWebSearchEnabled**: Enable web search functionality
-  - **coworkScheduledTasksEnabled**: Enable scheduled tasks
-  - **ccdScheduledTasksEnabled**: Enable CCD scheduled tasks
